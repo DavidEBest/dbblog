@@ -6,3 +6,4 @@ theme = 'PaperMod'
 [params]
   author = 'Dave'
   description = 'Civic tech and other things'
+  googleAnalyticsID = 'G-FC17KQ7FJY'
