@@ -1,0 +1,8 @@
+baseURL = 'https://blog.dave.best/'
+languageCode = 'en-us'
+title = 'Candied Brain'
+theme = 'PaperMod'
+
+[params]
+  author = 'Dave'
+  description = 'Civic tech and other things'
