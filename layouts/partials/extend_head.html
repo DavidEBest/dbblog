@@ -1,4 +1,4 @@
-{{- if and (.Site.Params.googleAnalyticsID) (not .Site.IsServer) }}
+{{- if .Site.Params.googleAnalyticsID }}
 <!-- Google Analytics -->
 <script async src="https://www.googletagmanager.com/gtag/js?id={{ .Site.Params.googleAnalyticsID }}"></script>
 <script>
