@@ -2,17 +2,23 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://localhost:1313/</loc>
+    <loc>https://blog.dave.best/</loc>
+    <lastmod>2025-11-27T08:00:00-05:00</lastmod>
+  </url><url>
+    <loc>https://blog.dave.best/posts/</loc>
+    <lastmod>2025-11-27T08:00:00-05:00</lastmod>
+  </url><url>
+    <loc>https://blog.dave.best/posts/251125/</loc>
+    <lastmod>2025-11-25T08:00:00-05:00</lastmod>
+  </url><url>
+    <loc>https://blog.dave.best/posts/251117/</loc>
+    <lastmod>2025-11-17T08:12:34-05:00</lastmod>
+  </url><url>
+    <loc>https://blog.dave.best/posts/my-first-post/</loc>
     <lastmod>2025-11-16T20:41:40-05:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/my-first-post/</loc>
-    <lastmod>2025-11-16T20:41:40-05:00</lastmod>
+    <loc>https://blog.dave.best/categories/</loc>
   </url><url>
-    <loc>http://localhost:1313/posts/</loc>
-    <lastmod>2025-11-16T20:41:40-05:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/categories/</loc>
-  </url><url>
-    <loc>http://localhost:1313/tags/</loc>
+    <loc>https://blog.dave.best/tags/</loc>
   </url>
 </urlset>

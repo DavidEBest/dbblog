@@ -2,17 +2,35 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Posts on Candied Brain</title>
-    <link>http://localhost:1313/posts/</link>
+    <link>https://blog.dave.best/posts/</link>
     <description>Recent content in Posts on Candied Brain</description>
     <generator>Hugo -- 0.152.2</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 16 Nov 2025 20:41:40 -0500</lastBuildDate>
-    <atom:link href="http://localhost:1313/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 25 Nov 2025 08:00:00 -0500</lastBuildDate>
+    <atom:link href="https://blog.dave.best/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Technical Career Planning: Growth, Strategy, and Building for the Future</title>
+      <link>https://blog.dave.best/posts/251125/</link>
+      <pubDate>Tue, 25 Nov 2025 08:00:00 -0500</pubDate>
+      <guid>https://blog.dave.best/posts/251125/</guid>
+      <description>&lt;p&gt;I had someone reach out to me with the following questions:&lt;/p&gt;
+&lt;p&gt;I would value your perspective on:&lt;/p&gt;
+&lt;p&gt;Technical Growth: How to transition from feature development to architectural thinking (CI/CD, Cloud Infrastructure, Scalability).&lt;/p&gt;
+&lt;p&gt;Career Strategy: Advice on positioning myself for opportunities (perhaps in the US market) where I can solve more complex engineering problems.&lt;/p&gt;
+&lt;p&gt;The Bigger Picture: Given my goal to eventually build an IT firm here in Ghana, I&amp;rsquo;d love to hear your thoughts on what technical foundations I need to master now to lead engineering teams in the future.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>251117</title>
+      <link>https://blog.dave.best/posts/251117/</link>
+      <pubDate>Mon, 17 Nov 2025 08:12:34 -0500</pubDate>
+      <guid>https://blog.dave.best/posts/251117/</guid>
+      <description>&lt;p&gt;I&amp;rsquo;ve gotten away from writing regularly, but I&amp;rsquo;m trying to get back to it. I flew out to Boston for work last week, and on the flight there I read &amp;ldquo;Enshittification&amp;rdquo; by Cory Doctorow. I enjoyed it and it sort of resonated with me—all these platforms that we use every day are just &lt;em&gt;bad&lt;/em&gt;. I see more ads than updates from friends. Even when the posts are from humans, they feel like they&amp;rsquo;re gaming the system. They&amp;rsquo;re writing things that are trying to get views rather than trying to connect with people. So yeah, I don&amp;rsquo;t really enjoy social media much anymore.&lt;/p&gt;</description>
+    </item>
     <item>
       <title>My First Post</title>
-      <link>http://localhost:1313/posts/my-first-post/</link>
+      <link>https://blog.dave.best/posts/my-first-post/</link>
       <pubDate>Sun, 16 Nov 2025 20:41:40 -0500</pubDate>
-      <guid>http://localhost:1313/posts/my-first-post/</guid>
+      <guid>https://blog.dave.best/posts/my-first-post/</guid>
       <description>&lt;p&gt;First Post.&lt;/p&gt;</description>
     </item>
   </channel>
