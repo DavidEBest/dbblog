@@ -230,4 +230,78 @@
     border-inline-start-color: var(--candy-lemon);
     background: rgba(255, 230, 109, 0.05);
   }
+
+  /* Header - Candy Rainbow Gradient */
+  .header {
+    background: linear-gradient(135deg,
+      var(--candy-bubblegum) 0%,
+      var(--candy-orange) 25%,
+      var(--candy-lemon) 50%,
+      var(--candy-mint) 75%,
+      var(--candy-blueberry) 100%);
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  }
+
+  /* Logo text - White and bold to stand out on gradient */
+  .logo a {
+    color: white !important;
+    font-weight: 800;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+  }
+
+  /* Theme toggle button on gradient background */
+  #theme-toggle {
+    color: white;
+    filter: drop-shadow(1px 1px 2px rgba(0, 0, 0, 0.3));
+  }
+
+  #theme-toggle:hover {
+    transform: scale(1.1);
+    transition: transform 0.2s;
+  }
+
+  /* Menu links if they exist */
+  #menu a {
+    color: white !important;
+    font-weight: 600;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);
+  }
+
+  #menu a:hover {
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4);
+  }
+
+  /* Dark mode - Different gradient for better contrast */
+  [data-theme=dark] .header {
+    background: linear-gradient(135deg,
+      var(--candy-grape) 0%,
+      var(--candy-blueberry) 25%,
+      var(--candy-bubblegum) 50%,
+      var(--candy-orange) 75%,
+      var(--candy-lemon) 100%);
+  }
+
+  /* Add a subtle candy stripe border under header */
+  .header::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 3px;
+    background: linear-gradient(90deg,
+      var(--candy-strawberry) 0%,
+      var(--candy-orange) 14.28%,
+      var(--candy-lemon) 28.56%,
+      var(--candy-lime) 42.84%,
+      var(--candy-mint) 57.12%,
+      var(--candy-blueberry) 71.4%,
+      var(--candy-grape) 85.68%,
+      var(--candy-bubblegum) 100%
+    );
+  }
+
+  .header {
+    position: relative;
+  }
 </style>
