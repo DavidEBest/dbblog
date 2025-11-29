@@ -8,3 +8,226 @@
   gtag('config', '{{ .Site.Params.googleAnalyticsID }}');
 </script>
 {{- end }}
+
+<!-- Candy Colors Custom CSS -->
+<style>
+  :root {
+    /* Candy Color Palette */
+    --candy-bubblegum: #FF6B9D;
+    --candy-lemon: #FFE66D;
+    --candy-mint: #7FDBCA;
+    --candy-grape: #B56FEC;
+    --candy-orange: #FFA06A;
+    --candy-blueberry: #6C5CE7;
+    --candy-strawberry: #FF4757;
+    --candy-lime: #26de81;
+  }
+
+  /* Links - Bubblegum Pink */
+  .post-content a,
+  .post-meta .i18n_list li a,
+  a:hover {
+    color: var(--candy-bubblegum);
+  }
+
+  .post-content a {
+    box-shadow: 0 1px 0 var(--candy-bubblegum);
+  }
+
+  /* Post cards - Rotating candy colored left borders */
+  .post-entry {
+    border-left: 4px solid var(--candy-bubblegum);
+    transition: transform 0.1s, border-left-color 0.3s;
+  }
+
+  .post-entry:nth-child(6n+1) {
+    border-left-color: var(--candy-bubblegum);
+  }
+
+  .post-entry:nth-child(6n+2) {
+    border-left-color: var(--candy-lemon);
+  }
+
+  .post-entry:nth-child(6n+3) {
+    border-left-color: var(--candy-mint);
+  }
+
+  .post-entry:nth-child(6n+4) {
+    border-left-color: var(--candy-grape);
+  }
+
+  .post-entry:nth-child(6n+5) {
+    border-left-color: var(--candy-orange);
+  }
+
+  .post-entry:nth-child(6n+6) {
+    border-left-color: var(--candy-blueberry);
+  }
+
+  /* Post entry hover effect - brighten the border */
+  .post-entry:hover {
+    border-left-width: 6px;
+  }
+
+  /* Tags - Candy rainbow colors */
+  .post-tags a {
+    background: var(--candy-mint);
+    color: #1a1a1a;
+    font-weight: 500;
+    transition: transform 0.2s, background 0.2s;
+  }
+
+  .post-tags li:nth-child(8n+1) a {
+    background: var(--candy-bubblegum);
+    color: white;
+  }
+
+  .post-tags li:nth-child(8n+2) a {
+    background: var(--candy-lemon);
+    color: #1a1a1a;
+  }
+
+  .post-tags li:nth-child(8n+3) a {
+    background: var(--candy-mint);
+    color: #1a1a1a;
+  }
+
+  .post-tags li:nth-child(8n+4) a {
+    background: var(--candy-grape);
+    color: white;
+  }
+
+  .post-tags li:nth-child(8n+5) a {
+    background: var(--candy-orange);
+    color: #1a1a1a;
+  }
+
+  .post-tags li:nth-child(8n+6) a {
+    background: var(--candy-blueberry);
+    color: white;
+  }
+
+  .post-tags li:nth-child(8n+7) a {
+    background: var(--candy-strawberry);
+    color: white;
+  }
+
+  .post-tags li:nth-child(8n+8) a {
+    background: var(--candy-lime);
+    color: #1a1a1a;
+  }
+
+  .post-tags a:hover {
+    transform: translateY(-2px);
+    filter: brightness(1.1);
+  }
+
+  /* Headings - Candy accent colors */
+  .post-content h1,
+  .post-content h2 {
+    color: var(--candy-grape);
+  }
+
+  .post-content h3 {
+    color: var(--candy-blueberry);
+  }
+
+  .post-title {
+    background: linear-gradient(135deg, var(--candy-bubblegum), var(--candy-grape));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+  }
+
+  /* Archive tags color rotation */
+  .terms-tags a {
+    transition: transform 0.1s, background 0.2s;
+  }
+
+  .terms-tags li:nth-child(8n+1) a {
+    background: var(--candy-bubblegum);
+    color: white;
+  }
+
+  .terms-tags li:nth-child(8n+2) a {
+    background: var(--candy-lemon);
+    color: #1a1a1a;
+  }
+
+  .terms-tags li:nth-child(8n+3) a {
+    background: var(--candy-mint);
+    color: #1a1a1a;
+  }
+
+  .terms-tags li:nth-child(8n+4) a {
+    background: var(--candy-grape);
+    color: white;
+  }
+
+  .terms-tags li:nth-child(8n+5) a {
+    background: var(--candy-orange);
+    color: #1a1a1a;
+  }
+
+  .terms-tags li:nth-child(8n+6) a {
+    background: var(--candy-blueberry);
+    color: white;
+  }
+
+  .terms-tags li:nth-child(8n+7) a {
+    background: var(--candy-strawberry);
+    color: white;
+  }
+
+  .terms-tags li:nth-child(8n+8) a {
+    background: var(--candy-lime);
+    color: #1a1a1a;
+  }
+
+  /* Blockquote accent */
+  .post-content blockquote {
+    border-inline-start: 3px solid var(--candy-bubblegum);
+    background: rgba(255, 107, 157, 0.05);
+    padding: 10px 14px;
+  }
+
+  /* Code inline accent */
+  .post-content code {
+    background: rgba(127, 219, 202, 0.15);
+    color: var(--candy-grape);
+    font-weight: 500;
+  }
+
+  /* Pagination arrows */
+  .pagination a:hover {
+    background: var(--candy-mint);
+    color: #1a1a1a;
+  }
+
+  /* Dark mode adjustments */
+  [data-theme=dark] .post-title {
+    background: linear-gradient(135deg, var(--candy-lemon), var(--candy-mint));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+  }
+
+  [data-theme=dark] .post-content h1,
+  [data-theme=dark] .post-content h2 {
+    color: var(--candy-lemon);
+  }
+
+  [data-theme=dark] .post-content h3 {
+    color: var(--candy-mint);
+  }
+
+  [data-theme=dark] .post-content code {
+    background: rgba(127, 219, 202, 0.1);
+    color: var(--candy-mint);
+  }
+
+  [data-theme=dark] .post-content blockquote {
+    border-inline-start-color: var(--candy-lemon);
+    background: rgba(255, 230, 109, 0.05);
+  }
+</style>
